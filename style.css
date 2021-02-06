@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	justify-content: center;
+	//justify-content: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -14,26 +14,27 @@ body{
 	//font-weight: 700;
 }
 header{
+	margin-top: 2vmax;
 	display: flex;
 	align-items: center;
-	//margin-top: 1em;
-	font-size: 5vmax;
-	height: 3em;
+	font-size: 4vmax;
+	//height: 2em;
 	text-align: center;
-	margin-bottom: 1rem;
+	margin-bottom: 3vmax;
+	justify-self: flex-start;
+	
 }
 .sp{
-	font-size: 2.5vmax;
-	margin-bottom: 0.5em;
+	font-size: 2vmax;
+	margin-bottom: 1.5vmax;
 	font-weight: 100;
 }
 .search-form{
-	margin-top: 1em;
 	width: 80vw;
-	height: 4vmax;
+	height: 3vmax;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 3em;
+	margin-bottom: 10vmax;
 	border: 3px solid #222222;
 }
 .search-form input[type='text']{
@@ -41,14 +42,14 @@ header{
 	color:#2b2b2b;
 	//border: 3px solid white;
 	width: 80%;
-	font-size: 1.5vmax;
+	font-size: 1vmax;
 }
 .search-button{
 	background-color:#96e5f3;
 	width: 20%;
 	border:0;
 	border-left: 3px solid #222222;
-	font-size: 1.5vmax;
+	font-size: 1vmax;
 	text-align: center;
 }
 .search-button:hover {
