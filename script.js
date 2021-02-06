@@ -60,7 +60,7 @@ async function getItems(value){
 
     const ratingElement = document.createElement('span');
     ratingElement.classList.add('rating');
-    var rating = document.createTextNode('IMD: ' + itemJSON.Ratings[0].Value);
+    var rating = document.createTextNode('IMDb: ' + itemJSON.Ratings[0].Value);
     ratingElement.appendChild(rating);
     objectLabel.appendChild(ratingElement);
 
